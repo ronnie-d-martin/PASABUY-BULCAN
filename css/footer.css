@@ -1,0 +1,77 @@
+body{
+    background: url("pics/3namedyo.jpg");
+}
+
+.footer-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 20px 40px 20px 20px;
+    background-color: rgb(44, 44, 44);
+}
+
+.aboutUs {
+    width: 23%;
+    margin-left: 8%;
+    padding: 10px;
+}
+
+.pages1 {
+    width: 20%;
+    padding: 10px;
+}
+
+.getIntouch {
+    width: 23%;
+    padding: 10px;
+}
+
+.getIntouch a {
+    padding-bottom: 10px;
+}
+
+.followUs {
+    width: 23%;
+    padding: 10px;
+}
+
+.aboutUs p {
+    color: rgb(255, 255, 255);
+}
+
+.aboutUs h4,
+.pages1 h4,
+.getIntouch h4,
+.followUs h4 {
+    color: skyblue;
+    font-size: 20px;
+}
+
+.aboutUs a,
+p,
+.pages1 a,
+.getIntouch a,
+.followUs a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.aboutUs ul,
+.pages1 ul,
+.getIntouch ul,
+.followUs ul {
+    color: rgb(44, 44, 44);
+}
+
+.aboutUs a:hover,
+.pages1 a:hover,
+.getIntouch a:hover,
+.followUs a:hover {
+    color: skyblue;
+}
+
+.followUs a {
+    padding: 5px 10px 0px 8px;
+    font-size: 24px;
+}

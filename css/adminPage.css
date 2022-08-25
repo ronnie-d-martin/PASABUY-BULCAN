@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.totalTitle {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    background-color: #4591f5;
+    color: #fff;
+}
+
+.containerDashboard {
+    width: 100%;
+    background-color: #c2e8ff;
+}
+
+.boxContainer {
+    width: 100%;
+    height: 220px;
+    padding: 3%;
+    padding-left: 8%;
+    background-color: #c2e8ff;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    color: #f0f0f0;
+}
+
+.firstBox {
+    width: 250px;
+    height: 125px;
+    background-color: #0d6efd;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.secondBox {
+    width: 250px;
+    height: 125px;
+    background-color: #dc3545;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.thirdBox {
+    width: 250px;
+    height: 125px;
+    background-color: #ffc107;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.forthBox {
+    width: 250px;
+    height: 125px;
+    background-color: #198754;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.firstBox:hover,
+.secondBox:hover,
+.thirdBox:hover,
+.forthBox:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxContainer p {
+    font-size: 34px;
+}
+
+.boxContainer strong {
+    font-size: 24px;
+}
+
+.dashboardContainer {
+    width: 100%;
+}
+
+.dashboardDetails {
+    width: 100%;
+    height: 410px;
+    padding: 2%;
+    padding-left: 8%;
+    background-color: #c2e8ff;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.firstDashboard {
+    width: 50%;
+    height: 300px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.secondDashboard {
+    width: 45%;
+    height: 627.5px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#myChart1 {
+    height: 100%;
+    width: 100%;
+}
+
+#myChart2 {
+    height: 100%;
+    width: 100%;
+    padding: 20px 10px 5px 10px;
+}
+
+
+/* hanggang dito */
+
+.preferRider {
+    width: 45%;
+    height: 300px;
+    background-color: white;
+    margin-left: 8%;
+    margin-top: -3%;
+    text-align: center;
+    border-radius: 18px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.choose_rider {
+    position: sticky;
+    top: 0;
+}
+
+.apat {
+    color: white;
+}

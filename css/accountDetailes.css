@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    background: #ffffff;
+    margin: 0 0 30px;
+    border: solid 1px #e6e6e6;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgba(245, 209, 238, 0.3);
+    border-radius: 7px;
+}
+
+.accountContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+table {
+    margin: auto;
+}
+
+table img {
+    width: 100px;
+    height: 40px;
+}
+
+td {
+    border: 1px black solid;
+}
+
+.imgCustomer {
+    width: 200px;
+    height: 150px;
+}
+
+.accountContainer {
+    width: 85%;
+    margin: auto;
+    padding: 4%;
+}
+
+input[name="c_fname"],
+input[name="c_lname"],
+input[name="c_username"],
+input[name="c_address"],
+input[name="c_contact"],
+input[name="old_pass"],
+input[name="new_pass"],
+input[name="new_pass_again"] {
+    margin: auto;
+    font-size: 17px;
+    width: 400px;
+    text-align: center;
+}
+
+input[name="c_image"] {
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.fixedTop {
+    position: sticky;
+    top: 0;
+}

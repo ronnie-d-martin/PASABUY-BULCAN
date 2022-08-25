@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*cover photo*/
+
+.cover {
+    /*show heigh: auto*/
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover img {
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+}
+
+.imgSize {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.category-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 95%;
+    padding-left: 5%;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    width: 22%;
+    cursor: pointer;
+    height: 250px;
+    text-align: center;
+    margin-top: 25px;
+    background: rgb(253, 253, 253);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.category-item img {
+    height: 70%;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 2%;
+}
+
+@media (max-width: 700px) {
+    .category-container {
+        display: flex;
+        width: 100%;
+    }
+    .category-items {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .category-item {
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        width: 40%;
+        height: 200px;
+    }
+    .category-item img {
+        height: 150px;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 2%;
+        box-shadow: 1px 1px 1px 1px darkgray;
+    }
+    .cover {
+        /*show heigh: auto*/
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cover img {
+        width: 60%;
+        height: 70%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .category-container {
+        display: flex;
+        width: 100%;
+    }
+    .category-items {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .category-item {
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        width: 40%;
+        height: 190px;
+    }
+    .category-item img {
+        height: 120px;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 2%;
+        box-shadow: 1px 1px 1px 1px darkgray;
+    }
+    .cover {
+        /*show heigh: auto*/
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cover img {
+        width: 60%;
+        height: 70%;
+    }
+}
+
+@media (max-width: 767px) {
+    .category-container {
+        display: flex;
+        width: 100%;
+    }
+    .category-items {
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .category-item {
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        width: 40%;
+        height: 180px;
+    }
+    .category-item img {
+        height: 120px;
+        width: 100%;
+        cursor: pointer;
+        border-radius: 2%;
+        box-shadow: 1px 1px 1px 1px darkgray;
+    }
+    .cover {
+        /*show heigh: auto*/
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cover img {
+        width: 60%;
+        height: 70%;
+    }
+}
+
+.category-item:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.category-item img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.category-title {
+    font-size: 50px;
+    font-style: italic;
+}

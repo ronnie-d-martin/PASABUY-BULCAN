@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.liveChatContainer {
+    width: 100%;
+    padding-left: 4%;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.customerInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.CustomersName {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+}
+
+.customerChat {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatBox {
+    padding: 1%;
+}
+
+.incomingImg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.outgoingImg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.outgoingImg {
+    text-align: end;
+}
+
+.customerInfo {
+    width: 50%;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper {
+    width: 400px;
+    height: 570px;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.tdPadding {
+    padding-left: 10px;
+}
+
+.customer-information {
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    .liveChatContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .customerInfo {
+        width: 100%;
+        padding: 30px;
+        border-radius: 16px;
+        box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
+    }
+}

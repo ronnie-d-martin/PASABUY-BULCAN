@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(pics/3namedyo.jpg);
+    
+}
+
+.decline-container {
+    width: 90%;
+    margin: auto;
+    padding-left: 5%;
+}
+
+.decline-container img {
+    width: 100px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.decline-container table {
+    text-align: center;
+    
+}
+
+.declineTable {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: white;
+}

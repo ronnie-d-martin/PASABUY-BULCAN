@@ -1,0 +1,196 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.merchant-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: url("pics/3namedyo.jpg");
+    background-repeat: no-repeat;
+}
+
+.merchant-title {
+    margin: 20px;
+}
+
+.merchant-items {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 95%;
+    flex-wrap: wrap;
+    padding-left: 5%;
+}
+
+.merchant-item {
+    margin-bottom: 2%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    width: 22%;
+    cursor: pointer;
+    height: 250px;
+    text-align: center;
+    margin-top: 25px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.merchant-item img {
+    height: 60%;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 5%;
+    border-radius: 2%;
+}
+
+@media (max-width: 700px) {
+    .merchant-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #fdfcfc;
+    }
+    .merchant-title {
+        margin: 20px;
+    }
+    .merchant-items {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 95%;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }
+    .merchant-item {
+        margin-bottom: 2%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        width: 40%;
+        cursor: pointer;
+        height: 220px;
+    }
+    .merchant-item img {
+        height: 60%;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 5%;
+        border-radius: 2%;
+    }
+    .addtocart {
+        width: 30px;
+        height: 30px;
+        background-color: #2b6777;
+        color: #c8d8e4;
+        border-radius: 5px;
+        float: right;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .merchant-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #fdfcfc;
+    }
+    .merchant-title {
+        margin: 20px;
+    }
+    .merchant-items {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 95%;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }
+    .merchant-item {
+        margin-bottom: 2%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        width: 40%;
+        cursor: pointer;
+        height: 220px;
+    }
+    .merchant-item img {
+        height: 60%;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 5%;
+        border-radius: 2%;
+    }
+}
+
+@media (max-width: 767px) {
+    .merchant-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #fdfcfc;
+    }
+    .merchant-title {
+        margin: 20px;
+    }
+    .merchant-items {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 95%;
+        flex-wrap: wrap;
+        padding-left: 5%;
+    }
+    .merchant-item {
+        margin-bottom: 2%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+        width: 40%;
+        cursor: pointer;
+        height: 200px;
+    }
+    .merchant-item img {
+        height: 60%;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 5%;
+        border-radius: 2%;
+    }
+}
+
+.merchant-item:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.merchant-item img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.merchant-title {
+    font-size: 50px;
+    margin-top: 10%;
+    font-style: italic;
+}

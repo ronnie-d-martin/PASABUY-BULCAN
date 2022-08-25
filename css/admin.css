@@ -1,0 +1,467 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url(pics/3namedyo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    padding-left: 5%;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    margin-left: 12%;
+    box-shadow: 1px 1px 9px 2px darkgray;
+    border-collapse: collapse;
+    border:none;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+    border: solid 1px black;
+    text-align: center;
+    border:none;
+}
+
+td {
+    text-align: center;
+    border:none;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+table img {
+    height: 60px;
+    width: 100px;
+}
+#categoryImg{
+     height: 80px;
+     width: 120px;
+}
+
+#categoryTable {
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 9px 2px black;
+    border: none;
+    background-color: white;
+}
+}
+
+#categoryModal {
+    height: 50%;
+    width: 35%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 9px 9px darkgray;
+    margin-top: 4%;
+}
+
+.trBorder {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#categoryName {
+    border: none;
+    border-bottom: 2px solid gray;
+    width: 262px;
+    height: 40px;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+   
+}
+
+#categoryimage {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addBtn {background-image: linear-gradient(to right, #0000fe 0%, #68cbf7  51%, #0000fe 100%)}
+.addBtn {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 60px;
+    display: block;
+ }
+
+#close_category{background-image: linear-gradient(to right, #0000fe 0%, #68cbf7  51%, #0000fe 100%)}
+#close_category {
+    padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 60px;
+   display: block;
+ }
+
+#close_merchant {background-image: linear-gradient(to right, #0000fe 0%, #68cbf7  51%, #0000fe 100%)}
+#close_merchant {
+    padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 60px;
+   display: block;
+ }
+
+#close_product {background-image: linear-gradient(to right, #0000fe 0%, #68cbf7  51%, #0000fe 100%)}
+#close_product {
+    padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 60px;
+   display: block;
+ }
+
+#close_rider {background-image: linear-gradient(to right, #0000fe 0%, #68cbf7  51%, #0000fe 100%)}
+#close_rider {
+    padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 60px;
+   display: block;
+ }
+
+
+/*merchantModal*/
+
+#merchantModal {
+    height: 50%;
+    width: 35%;
+    margin-top: 8%;
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 9px 9px darkgray;
+}
+
+.merchantInp {
+    width: 263px;
+    height: 33px;
+    padding: 11px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 16px;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+#inpmerchant {
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.errormessage {
+    color: red;
+    background-color: rgb(240, 170, 170);
+    margin-bottom: 5px;
+}
+
+.successmessage {
+    color: rgb(0, 0, 0);
+    background-color: greenyellow;
+    margin-bottom: 5px;
+}
+
+#productModal {
+    height: 50%;
+    width: 35%;
+    padding: 25px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 9px 9px darkgray;
+    
+}
+
+.productInp {
+    width: 220px;
+    height: 33px;
+    padding: 11px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 16px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background:none;
+}
+
+.selector {
+    width: 240px;
+    height: 33px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    line-height: 16px;
+}
+
+#riderModal {
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px 30px;
+    width: 45%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 9px 9px darkgray;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.inpRider {
+    width: 350px;
+    height: 33px;
+    padding: 11px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.inpRider2 {
+    width: 172.5px;
+    height: 33px;
+    padding: 11px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.riderId,
+.riderFname,
+.riderLname,
+.riderUsername,
+.riderAddress,
+.riderContactNo,
+.riderImage {
+    border: 1px solid black;
+}
+
+.categoryFormModal {
+    margin: auto;
+    margin-top: 8%;
+    padding: 20px;
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 9px 9px darkgray;
+    text-align: center;
+}
+
+.hiddenId,
+.hiddenName,
+.hiddenDescription,
+.hiddenPrice {
+    width: 270px;
+    height: 40px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.modal img {
+    height: 180px;
+    width: 300px;
+    box-shadow: 1px 1px 2px 2px darkgray;
+}
+
+.saveBtn,
+.editBtn {
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    font-size: large;
+    background-color: rgb(0, 180, 90);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* The Close Button */
+
+.close {
+    color: #aaaaaa;
+    text-align: end;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hiddenImage {
+    margin-bottom: 13px;
+}
+
+.merchantsformModal {
+    margin: auto;
+    margin-top: 8%;
+    padding: 10px;
+    width: 35%;
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 9px 9px darkgray;
+    text-align: center;
+}
+
+.formModal {
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 9px 9px darkgray;
+    text-align: center;
+}
+
+select[name="category"],
+select[name="merchant"] {
+    width: 220px;
+    height: 33px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    line-height: 16px;
+}
+
+input[name="productName"],
+input[name="productDescription"],
+input[name="productPrice"] {
+    width: 220px;
+    height: 33px;
+}
+
+.labelto {
+    width: 200px;
+}
+
+input[name="newImage"] {
+    margin-left: 14%;
+}
+
+input[name="rider_image"] {
+    margin-left: 25%;
+    margin-top: 3px
+}
+
+label {
+    width: 120px;
+}
+
+.fixedTop {
+    position: sticky;
+    top: 0;
+}
+
+.fixedTop th {
+    padding: 0px 10px 0px 10px;
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: row;
+    width: 370px;
+    height: 35px;
+    float: right;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+
+.formSearch {
+    width: 220px;
+    height: 35px;
+    padding: px;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.editButton,
+.deleteCate {
+    display: inline-block;
+}
+
+#productTable {
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 9px 2px black;
+    border: none;
+    background-color: white;
+}
+
+#categoryTable {
+    margin-top: 6%;
+    width: 60%;
+}
+#merchantTable {
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 9px 2px black;
+    border: none;
+    background-color: white;
+}
+#riderTable{
+    width: 90%;
+    margin: auto;
+    box-shadow: 1px 1px 9px 2px black;
+    border: none;
+    background-color: white;
+}
+
